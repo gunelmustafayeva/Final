@@ -1,0 +1,29 @@
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #F7F6F4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 6%;
+    padding-top: 2%;
+  }
+  .footericon i{
+      margin-left: 10px;
+      font-size: 20px;
+      color: #C7B56F;
+  }
+  .footericon p{
+    padding-left: 9%;
+    padding-top: 1%;
+    font-size: 20px;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+

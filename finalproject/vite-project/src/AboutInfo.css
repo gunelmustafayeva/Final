@@ -1,0 +1,47 @@
+.read-about{
+    width: 100%;
+    height: 500px;
+    background-color: #E0D0C0;
+    display: flex;
+    padding-bottom: 5%;
+    background-attachment: fixed;
+  }
+  .abt-image{
+    width: 50%;
+    height: 550px;
+    padding-bottom: 5%;
+  }
+  .abt-image img{
+    width: 52%;
+    height: 90%;
+    margin-left: 40%;
+    margin-top: 6%;
+  }
+  .abt-text{
+    width: 50%;
+    height: 500px;
+    position: relative;
+    padding-bottom: 5%;
+  }
+  .title-abt{
+    width: 60%;
+    background-color: #E0D0C0;
+    font-size: 32px;
+    padding: 1%;
+    position: absolute;
+    top: 20%;
+    right: 55%;
+    color: #fff;
+  }
+  .abt-text p{
+    margin-top: 25%;
+    width: 60%;
+    margin-right: 20px;
+    position: absolute;
+    right: 40%;
+    color:black;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+  }
+  

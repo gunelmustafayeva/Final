@@ -1,0 +1,113 @@
+.product-list{
+    width: 100%;
+    height: 770px;
+    background-color:#BEA18F;
+    background-attachment: fixed;
+  }
+  .list{
+    width: 85%;
+    height: 800px;
+    margin: auto;
+    padding: 4%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-info{
+    width: 23%;
+    height: 310px;
+    margin: 10px;
+    position: relative;
+  }
+  .product-info .product-after{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 3%;
+    left: 0%;
+    background-color: rgba(221, 209, 209, 0.5); 
+    color: #4a3b31;
+    text-align: center;  
+    padding-top: 3%;
+    z-index: 0;
+    font-size: 20px;
+  }
+  .product-info:hover .product-after{
+    bottom: 19%;
+    transition: 0.5s;
+  }
+  .product-info img{
+    width: 100%;
+    height: 251px;
+  }
+  .product-text{
+    width: 100%;
+    height: 70px;
+    padding-top: 5%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #BEA18F;
+    z-index: 10;
+    position: absolute;
+    bottom: 0.1%;
+    font-size: 21px;
+  }
+
+  .quick-view{
+    width: 100%;
+    height: 100vh;
+    background-color:  rgba(221, 209, 209, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 30;
+  }
+  .view-card{
+    width: 57%;
+    height: 80vh;
+    background-color: #fff;
+    margin: 70px auto;
+    padding: 2%;
+    display: flex;
+  }
+  .view-img{
+    width: 55%;
+    height: 80vh;
+  }
+  .view-img img{
+    width: 100%;
+    height: 65vh;
+  }
+  .view-price{
+    width: 45%;
+    padding-left: 5%;
+  }
+  .view-price h2{
+    font-size: 40px;
+    color: #4a3b31;
+  }
+  .view-price p{
+    padding-top: 10%;
+    font-size: 20px;
+  }
+  .view-price .quantity{
+    font-size: 15px;
+  } 
+  .view-price input{
+    width: 25%;
+    height: 40px;
+    margin-top:2%;
+    padding-left: 1%;
+  }
+  .view-price button{
+    width: 90%;
+    margin-top: 30%;
+    height: 40px;
+    background-color: #BEA18F;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+  }
+  .view-card .fa-xmark{
+    font-size: 25px;
+    color: #4a3b31;
+  }
